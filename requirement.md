@@ -4,8 +4,8 @@
 
 #### 一、用户系统
 - 登录 　　  POST
-	 路径：　　login 
-	 提交数据：{username, password} (username可以是手机号，也可以是用户名，password为md5格式)
+	 路径：　　login  
+	 提交数据：{username, password} (username可以是手机号，也可以是用户名，password为md5格式)  
 	 返回值：　json{code:?} 0代表成功 1代表用户名不存在, 2代表密码不正确
 	 
 - 注册 　　　　POST
